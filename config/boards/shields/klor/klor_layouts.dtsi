@@ -1,0 +1,72 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <physical_layouts.dtsi>
+
+/ {
+    klor_physical_layout: klor_physical_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "KLOR";
+        transform = <&default_transform>;
+        keys
+            // Row 0 Left (5 keys)
+            = <&key_physical_attrs 100 100 100 45 0 0 0>
+            , <&key_physical_attrs 100 100 200 15 0 0 0>
+            , <&key_physical_attrs 100 100 300 0 0 0 0>
+            , <&key_physical_attrs 100 100 400 15 0 0 0>
+            , <&key_physical_attrs 100 100 500 30 0 0 0>
+            // Row 0 Right (5 keys)
+            , <&key_physical_attrs 100 100 900 30 0 0 0>
+            , <&key_physical_attrs 100 100 1000 15 0 0 0>
+            , <&key_physical_attrs 100 100 1100 0 0 0 0>
+            , <&key_physical_attrs 100 100 1200 15 0 0 0>
+            , <&key_physical_attrs 100 100 1300 45 0 0 0>
+            
+            // Row 1 Left (6 keys)
+            , <&key_physical_attrs 100 100 0 165 0 0 0>
+            , <&key_physical_attrs 100 100 100 145 0 0 0>
+            , <&key_physical_attrs 100 100 200 115 0 0 0>
+            , <&key_physical_attrs 100 100 300 100 0 0 0>
+            , <&key_physical_attrs 100 100 400 115 0 0 0>
+            , <&key_physical_attrs 100 100 500 130 0 0 0>
+            // Row 1 Right (6 keys)
+            , <&key_physical_attrs 100 100 900 130 0 0 0>
+            , <&key_physical_attrs 100 100 1000 115 0 0 0>
+            , <&key_physical_attrs 100 100 1100 100 0 0 0>
+            , <&key_physical_attrs 100 100 1200 115 0 0 0>
+            , <&key_physical_attrs 100 100 1300 145 0 0 0>
+            , <&key_physical_attrs 100 100 1400 165 0 0 0>
+
+            // Row 2 Left (7 keys)
+            , <&key_physical_attrs 100 100 0 265 0 0 0>
+            , <&key_physical_attrs 100 100 100 245 0 0 0>
+            , <&key_physical_attrs 100 100 200 215 0 0 0>
+            , <&key_physical_attrs 100 100 300 200 0 0 0>
+            , <&key_physical_attrs 100 100 400 215 0 0 0>
+            , <&key_physical_attrs 100 100 500 230 0 0 0>
+            , <&key_physical_attrs 100 100 600 250 0 0 0>
+            // Row 2 Right (7 keys)
+            , <&key_physical_attrs 100 100 800 250 0 0 0>
+            , <&key_physical_attrs 100 100 900 230 0 0 0>
+            , <&key_physical_attrs 100 100 1000 215 0 0 0>
+            , <&key_physical_attrs 100 100 1100 200 0 0 0>
+            , <&key_physical_attrs 100 100 1200 215 0 0 0>
+            , <&key_physical_attrs 100 100 1300 245 0 0 0>
+            , <&key_physical_attrs 100 100 1400 265 0 0 0>
+
+            // Row 3 Left Thumbs (4 keys)
+            , <&key_physical_attrs 100 100 250 290 0 0 0>
+            , <&key_physical_attrs 100 100 350 310 0 0 0>
+            , <&key_physical_attrs 100 100 450 330 0 0 0>
+            , <&key_physical_attrs 100 100 550 350 0 0 0>
+            // Row 3 Right Thumbs (4 keys)
+            , <&key_physical_attrs 100 100 850 350 0 0 0>
+            , <&key_physical_attrs 100 100 950 330 0 0 0>
+            , <&key_physical_attrs 100 100 1050 310 0 0 0>
+            , <&key_physical_attrs 100 100 1150 290 0 0 0>
+            ;
+    };
+};
