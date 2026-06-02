@@ -1,0 +1,4 @@
+name: nice_nano-adapter
+append:
+  EXTRA_DTC_OVERLAY_FILE: dongle-nice-nano.overlay
+  EXTRA_CONF_FILE: dongle-nice-nano.conf
