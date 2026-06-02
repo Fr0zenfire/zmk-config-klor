@@ -27,7 +27,7 @@
 	right_encoder: encoder_right {
 		compatible = "alps,ec11";
 		label = "RIGHT_ENCODER";
-		steps = <dr>;
+		steps = <4>;
 		status = "disabled";
 	};
 
