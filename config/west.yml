@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: carrefinhofs
+    - name: carrefinho
       url-base: https://github.com/carrefinho
   projects:
     - name: zmk
