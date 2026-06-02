@@ -7,6 +7,9 @@
 #include "klor.dtsi"
 
 &kscan0 {
+	compatible = "zmk,kscan-gpio-matrix";
+    wakeup-source;
+	
 	col-gpios
 		= <&pro_micro 19 GPIO_ACTIVE_HIGH>
 		, <&pro_micro 18 GPIO_ACTIVE_HIGH>
