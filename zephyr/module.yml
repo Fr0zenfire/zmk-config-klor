@@ -1,6 +1,0 @@
-name: zmk-config-local
-build:
-  settings:
-    board_root: ./config/boards/shields/klor
-    dts_root: ./config/boards/shields/klor
-    snippet_root: .
