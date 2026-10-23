@@ -1,8 +1,15 @@
- #include "klor.dtsi"
+/*
+ * Copyright (c) 2022 GEIST
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "klor.dtsi"
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,matrix-transform = &default_transform;
     };
 
     mock_kscan: kscan_1 {

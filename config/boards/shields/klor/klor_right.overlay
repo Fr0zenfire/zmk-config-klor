@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "klor.dtsi"
+#include "klor_common.dtsi"
 
 &default_transform {
 	col-offset = <6>;

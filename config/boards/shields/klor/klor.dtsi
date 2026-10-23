@@ -5,7 +5,6 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "klor_common.dtsi"
 #include "klor_layouts.dtsi"
 
 / {
