@@ -154,9 +154,9 @@
             display-name = "Symbols";
             bindings = <
             &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4            &kp N5                     &kp NUMBER_6        &kp N7                  &kp N8      &kp N9                &kp N0
-&none       &hml LSHFT ESCAPE  &hml RIGHT_ALT INS  &hml2 2 DELETE  &hml LCTRL TAB          &hml LEFT_ALT BACKSPACE    &hmr LEFT_ALT LEFT  &hmr RCTRL DOWN         &hmr2 2 UP  &hmr RIGHT_ALT RIGHT  &hmr RSHFT ENTER  &none
+&none       &hml LSHFT ESCAPE  &hml RIGHT_ALT INS  &kp DELETE      &hml LCTRL TAB          &kp BACKSPACE              &hmr LEFT_ALT LEFT  &hmr RCTRL DOWN         &hmr2 2 UP  &hmr RIGHT_ALT RIGHT  &hmr RSHFT ENTER  &none
 &trans      &kp GRAVE          &kp MINUS           &kp EQUAL       &hml RGUI LEFT_BRACKET  &kp RIGHT_BRACKET  &none   &none               &kp BACKSLASH           &hmr RGUI SINGLE_QUOTE  &kp COMMA   &kp PERIOD            &kp SLASH         &trans
-                                                   &none           &trans                  &to 0              &trans                      &trans                  &trans                  &to 0       &none
+                                                   &none           &trans                  &to 0              &trans                      &trans                  &trans                  &kp BACKSPACE &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &bri_encoder>;
         };
@@ -168,7 +168,7 @@
             &kp U          &kp D            &kp E             &kp F    &kp N            &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8      &kp KP_NUMBER_9  &kp KP_N0
 &none       &kp KP_DIVIDE  &kp KP_MULTIPLY  &hml2 1 KP_EQUAL  &kp TAB  &kp BACKSPACE    &kp KP_NUMLOCK   &kp KP_NUMBER_4  &hml2 1 KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &none
 &trans      &kp X          &kp A            &kp B             &kp C    &kp COLON   &none &none            &kp KP_PLUS      &kp KP_NUMBER_1  &kp KP_NUMBER_2      &kp KP_NUMBER_3  &kp KP_DOT    &trans
-                                            &none             &trans   &to 0       &trans                 &trans           &trans           &to 0       &none
+                                            &none             &trans   &to 0       &trans                 &trans           &trans           &kp BACKSPACE &none
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &bri_encoder>;
         };
