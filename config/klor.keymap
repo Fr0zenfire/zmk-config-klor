@@ -53,13 +53,19 @@
 
         combo_sys_left {
             timeout-ms = <100>;
-            key-positions = <26 39>; // Combo `v+space`
+            key-positions = <26 38>; // Combo `v+space`
             bindings = <&mo SYST>;
         };
 
         combo_sys_right {
             timeout-ms = <100>;
-            key-positions = <31 40>; // Combo `m+space`
+            key-positions = <31 41>; // Combo `m+enter`
+            bindings = <&mo SYST>;
+        };
+
+        combo_sys_right_space {
+            timeout-ms = <100>;
+            key-positions = <31 38>; // Combo `m+space`
             bindings = <&mo SYST>;
         };
     };
